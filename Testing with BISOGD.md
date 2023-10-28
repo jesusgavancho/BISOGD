@@ -149,20 +149,3 @@ then we get a response after executing (Ctrl + A to copy all) then paste in
 https://graphql-kit.com/graphql-voyager/ then press CHANGE SCHEMA the paste in INTROSPECTION and finally DISPLAY (GRAPHQL schema vulnerability found)
 ```
 
-![[Pasted image 20231027213739.png]]
-
-![[Pasted image 20231027213719.png]]
-
-![[Pasted image 20231027214013.png]]
-
-![[Pasted image 20231027214135.png]]
-![[Pasted image 20231027215313.png]]
-
-![[Pasted image 20231027214816.png]]
-![[Pasted image 20231027215245.png]]
-![[Pasted image 20231027215624.png]]
-![[Pasted image 20231027215958.png]]![[Pasted image 20231027220155.png]]![[Pasted image 20231027220756.png]]![[Pasted image 20231027220959.png]]
-![[Pasted image 20231027221247.png]]
-![[Pasted image 20231027221525.png]]
-![[Pasted image 20231027221712.png]]
-

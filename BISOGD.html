@@ -97,6 +97,7 @@
         }
 
         var searchQuery = 'site:' + targetDomain;
+        
 
         switch (type) {
             case 1:
@@ -138,7 +139,9 @@
             case 13:
                 searchQuery += ' inurl:redir | inurl:url | inurl:redirect | inurl:return | inurl:src=http | inurl:r=http';
                 break;
-            
+            case 14:
+                searchQuery += ' "access_key"';
+                break;
             case 15:
                 var site = 'site:pastebin.com ' + targetDomain;
                 var url = 'https://www.google.com/search?q=' + encodeURIComponent(site);
@@ -174,7 +177,9 @@
                 var url = 'https://github.com/search?q=' + encodeURIComponent(site) + '&type=host';
                 window.open(url, '_blank');
                 return;
-           
+            case 22:
+                searchQuery += ' "amazonaws"';
+                break;
 
             
             case 27:
@@ -328,7 +333,7 @@
     <button class="futuristic-button" onclick="googleSearch(11)">Finding Backdoors</button>
     <button class="futuristic-button" onclick="googleSearch(12)">Install / Setup files</button>
     <button class="futuristic-button" onclick="googleSearch(13)">Open Redirects</button>
-    
+    <button class="futuristic-button" onclick="googleSearch(14)">Access Keys</button>
     <button class="futuristic-button" onclick="googleSearch(15)">Find Pastebin entries</button>
     <button class="futuristic-button" onclick="googleSearch(16)">Employees on LINKEDIN</button>
     <button class="futuristic-button" onclick="googleSearch(17)">.htaccess sensitive files</button>
@@ -336,7 +341,7 @@
     <button class="futuristic-button" onclick="googleSearch(19)">Find Sub-Subdomains</button>
     <button class="futuristic-button" onclick="googleSearch(20)">Find WordPress #2</button>
     <button class="futuristic-button" onclick="googleSearch(21)">Search in GITHUB</button>
-    
+    <button class="futuristic-button" onclick="googleSearch(22)">AmazonaWS Files</button>
     
     
     <button class="futuristic-button" onclick="googleSearch(27)">Find MIME-SWF links in the past</button>
